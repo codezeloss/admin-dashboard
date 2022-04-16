@@ -1,0 +1,29 @@
+/* ////////////////////////////// */
+/* Main */
+/* ////////////////////////////// */
+
+.main {
+  background-color: rgb(181, 177, 177);
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.flex-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-white {
+  filter: invert(100%) sepia(21%) saturate(0%) hue-rotate(297deg)
+    brightness(101%) contrast(102%);
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

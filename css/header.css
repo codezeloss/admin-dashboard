@@ -1,0 +1,93 @@
+/* ////////////////////////////// */
+/* Header */
+/* ////////////////////////////// */
+
+.header {
+  color: rgb(0, 0, 0);
+  height: 175px;
+  background-color: rgb(255, 255, 255);
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+
+  padding: 1.6rem 6rem 1.6rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input {
+  width: 690px;
+  height: 32px;
+  background-color: rgba(222, 230, 233, 0.891);
+  border-radius: 22px;
+  border: none;
+  padding: 1.8rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+ul {
+  font-size: 1.6rem;
+  font-weight: 500;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  color: #fff;
+  display: inline-block;
+  margin-left: 1rem;
+  background-color: cornflowerblue;
+  padding: 1rem 3rem;
+  border-radius: 28px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.6rem;
+}
+
+.personal-img-sml {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.personal-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.flex-spc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-spc-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 2.6rem;
+}
+
+.sal-1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+.sal-2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.sal-3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}

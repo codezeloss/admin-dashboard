@@ -13,7 +13,10 @@
     />
 
     <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png" /> -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/aside.css" />
     <title>Dashboard</title>
   </head>
 
@@ -25,12 +28,27 @@
             <img src="img/search.svg" alt="" />
             <input type="search" id="search_bar" />
           </div>
-          <div class="flex">
-            <img src="img/notifications.svg" alt="" />
-            <img src="img/eloss.jpg" alt="" />
-            <p>eloss code</p>
+          <div class="flex flex-spc-2">
+            <img src="img/notifications-outline.svg" alt="" />
+            <img class="personal-img-sml" src="img/eloss.jpg" alt="" />
+            <p class="sal-3">eloss code</p>
           </div>
         </nav>
+
+        <div class="flex flex-spc">
+          <div class="flex">
+            <img class="personal-img mrg-right" src="img/eloss.jpg" alt="" />
+            <div>
+              <p class="sal-1">Hi there,</p>
+              <p class="sal-2">Morgen Oakley (@morgen)</p>
+            </div>
+          </div>
+          <ul class="flex">
+            <li>New</li>
+            <li>Upload</li>
+            <li>Share</li>
+          </ul>
+        </div>
       </header>
 
       <main class="main grid-2">
@@ -239,11 +257,7 @@
 
       <aside class="aside">
         <div class="dash-box flex mrg-dash">
-          <img
-            class="filter-white img-dash mrg-right-2"
-            src="img/cog-outline.svg"
-            alt=""
-          />
+          <img class="img-dash mrg-right-2" src="img/dash-icon.svg" alt="" />
           <h1>Dashboard</h1>
         </div>
 
