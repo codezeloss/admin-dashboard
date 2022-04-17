@@ -15,16 +15,16 @@ body {
 }
 
 img {
-  width: 25px;
+  width: 23px;
   cursor: pointer;
 }
 
 .container {
-  max-width: 1540px;
+  max-width: 1470px;
+  height: 100vh;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 2fr;
 }
 
 .flex {
