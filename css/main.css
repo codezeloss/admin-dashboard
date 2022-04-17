@@ -8,6 +8,7 @@
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   padding: 1rem;
+  padding-left: 2rem;
   padding-bottom: 11rem;
 }
 
@@ -24,16 +25,18 @@
 .grid-2 {
   display: grid;
   grid-template-columns: 3fr 1fr;
+  grid-column-gap: 4rem;
 }
 
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 1.4rem;
+  grid-column-gap: 3rem;
 }
 
 .card {
-  width: 390px;
+  width: 100%;
   min-height: 220px;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
